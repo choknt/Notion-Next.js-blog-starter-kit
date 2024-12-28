@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config';
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd1e89e9e42eb4ebf9486ae0374039efc',
+  rootNotionPageId: '16a48c0b8a0781c2beaffe1ed9ebd79f',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -78,5 +78,5 @@ export default siteConfig({
   defaultTheme: 'system',
 
   // enable comment
-  enableComment: true,
+  enableComment: false,
 });
